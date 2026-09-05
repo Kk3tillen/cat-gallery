@@ -20,6 +20,7 @@ export default {
             isNight: true // Renomeei para 'clicks'
         };
     },
+    fetchOnServer: false,
     methods: {
         mudarCor() {
                 if (this.isNight) {

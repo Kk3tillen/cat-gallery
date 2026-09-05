@@ -7,8 +7,8 @@
             
             <nav>
                 <ul>
-                    <li class="conteudo-nav"><a href="sobre">Sobre</a></li>
-                    <li class="conteudo-nav"><a href="http://localhost:3000">Galeria</a></li>
+                    <li class="conteudo-nav"><nuxt-link to="/sobre">Sobre</nuxt-link></li>
+                    <li class="conteudo-nav"><nuxt-link to="/">Galeria</nuxt-link></li>
                     <li class="conteudo-nav"></li>
                 </ul>
             </nav>  
